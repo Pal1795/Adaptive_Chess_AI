@@ -10,16 +10,14 @@ Traditional chess engines play at fixed strengths — either too strong for begi
 - Adapts **playing style** (Aggressive, Defensive, Tactical, etc.) based on opponent move patterns
 - Uses **LLMs (Gemini 2.0 Flash)** to generate natural, ELO-appropriate moves with human-style explanations
 - Offers **real-time feedback** on user moves for educational guidance
-- 
+  
 ## Features
 
 - **ELO-Aware Play**: The bot plays differently at 800 vs. 1800 rating
 - **Style Classifier**: Detects opponent behavior and adjusts AI style accordingly
 - **LLM-Powered Move Analysis**: Explains why your move was good, bad, or risky
 - **Streamlit Interface**: Play directly in a browser, with a real-time SVG board and full controls
-
----
-
+  
 ## Tech Stack
 
 - `python-chess` – board and move logic
